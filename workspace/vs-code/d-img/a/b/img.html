@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지 태그</title>
+</head>
+<body>
+    <!-- 보안상의 이유로 -->
+    <!-- 보통 브라우저에서 절대 경로에 접근할 수 없도록 막아준다(일부 브라우저는 가능) -->
+    <img src="D:\gb_0900_hds\html\resource\images\icon1.png" alt="이미지">
+    <img src="icon3.png" width="100px" alt="icon3">
+    <!-- icon1.png -->
+    <img src="../icon1.png" width="10px">
+    <!-- icon2.png -->
+    <img src="../../icon2.png" width="150px">
+    <!-- icon3.png -->
+    <img src="./icon3.png" width="250px">
+    <!-- icon4.png -->
+    <img src="../c/icon4.png" width="300px">
+    <!-- icon5.png -->
+    <img src="../c/d/icon5.png" width="350px">
+    <!-- 외부 서버에 있는 이미지 경로도 접근할 수 있다. -->
+    <img src="https://product-image.kurly.com/hdims/resize/%3E1900x%3E370/quality/85/src/banner/main/pc/img/802976cb-8541-4f4e-8cb3-8d3eb0aa502c.png">
+</body>
+</html>
